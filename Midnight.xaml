@@ -1,303 +1,303 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options" mc:Ignorable="po">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:po="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options" mc:Ignorable="po">
 
-    <SolidColorBrush x:Key="PreviewText.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="PreviewText.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="PreviewText.Selection.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="PreviewText.Selection.Background" po:Freeze="true" Color="#800080C0" />
-    <SolidColorBrush x:Key="PreviewText.Selection.Border" po:Freeze="true" Color="#00801980" />
-    <SolidColorBrush x:Key="PreviewText.CurrentLine.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="PreviewText.CurrentLine.Border" po:Freeze="true" Color="#008057BB" />
-    <SolidColorBrush x:Key="PreviewText.Link" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="PreviewText.BigEllipsis" po:Freeze="true" Color="#FF3794FF" />
-    <SolidColorBrush x:Key="PreviewText.Marker.Global.Background" po:Freeze="true" Color="#FFF87B58" />
-    <SolidColorBrush x:Key="PreviewText.Marker.Local.Background" po:Freeze="true" Color="#FFC695C6" />
-    <sys:Boolean x:Key="PreviewText.SyntaxColor.Invert">false</sys:Boolean>
+	<SolidColorBrush x:Key="PreviewText.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="PreviewText.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="PreviewText.Selection.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="PreviewText.Selection.Background" po:Freeze="true" Color="#800080C0" />
+	<SolidColorBrush x:Key="PreviewText.Selection.Border" po:Freeze="true" Color="#00801980" />
+	<SolidColorBrush x:Key="PreviewText.CurrentLine.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="PreviewText.CurrentLine.Border" po:Freeze="true" Color="#008057BB" />
+	<SolidColorBrush x:Key="PreviewText.Link" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="PreviewText.BigEllipsis" po:Freeze="true" Color="#FF3794FF" />
+	<SolidColorBrush x:Key="PreviewText.Marker.Global.Background" po:Freeze="true" Color="#FFF87B58" />
+	<SolidColorBrush x:Key="PreviewText.Marker.Local.Background" po:Freeze="true" Color="#FFC695C6" />
+	<sys:Boolean x:Key="PreviewText.SyntaxColor.Invert">false</sys:Boolean>
 
-    <SolidColorBrush x:Key="Match.Highlight.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Match.Highlight.Background" po:Freeze="true" Color="#FF71946D" />
-    <SolidColorBrush x:Key="Match.Group.0.Highlight.Background" po:Freeze="true" Color="#FF4C7399" />
-    <SolidColorBrush x:Key="Match.Group.1.Highlight.Background" po:Freeze="true" Color="#FFC46045" />
-    <SolidColorBrush x:Key="Match.Group.2.Highlight.Background" po:Freeze="true" Color="#FFC9325D" />
-    <SolidColorBrush x:Key="Match.Group.3.Highlight.Background" po:Freeze="true" Color="#FF946F94" />
-    <SolidColorBrush x:Key="Match.Group.4.Highlight.Background" po:Freeze="true" Color="#FF458282" />
-    <SolidColorBrush x:Key="Match.Group.5.Highlight.Background" po:Freeze="true" Color="#FF005E8C" />
-    <SolidColorBrush x:Key="Match.Group.6.Highlight.Background" po:Freeze="true" Color="#FFCC5500" />
-    <SolidColorBrush x:Key="Match.Group.7.Highlight.Background" po:Freeze="true" Color="#FF8D85CC" />
-    <SolidColorBrush x:Key="Match.Group.8.Highlight.Background" po:Freeze="true" Color="#FFC48945" />
-    <SolidColorBrush x:Key="Match.Group.9.Highlight.Background" po:Freeze="true" Color="#FF697C87" />
-    <SolidColorBrush x:Key="Match.Skip.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Match.Skip.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Match.Replace.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Match.Replace.Background" po:Freeze="true" Color="#FF71946D" />
+	<SolidColorBrush x:Key="Match.Highlight.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Match.Highlight.Background" po:Freeze="true" Color="#FF71946D" />
+	<SolidColorBrush x:Key="Match.Group.0.Highlight.Background" po:Freeze="true" Color="#FF4C7399" />
+	<SolidColorBrush x:Key="Match.Group.1.Highlight.Background" po:Freeze="true" Color="#FFC46045" />
+	<SolidColorBrush x:Key="Match.Group.2.Highlight.Background" po:Freeze="true" Color="#FFC9325D" />
+	<SolidColorBrush x:Key="Match.Group.3.Highlight.Background" po:Freeze="true" Color="#FF946F94" />
+	<SolidColorBrush x:Key="Match.Group.4.Highlight.Background" po:Freeze="true" Color="#FF458282" />
+	<SolidColorBrush x:Key="Match.Group.5.Highlight.Background" po:Freeze="true" Color="#FF005E8C" />
+	<SolidColorBrush x:Key="Match.Group.6.Highlight.Background" po:Freeze="true" Color="#FFCC5500" />
+	<SolidColorBrush x:Key="Match.Group.7.Highlight.Background" po:Freeze="true" Color="#FF8D85CC" />
+	<SolidColorBrush x:Key="Match.Group.8.Highlight.Background" po:Freeze="true" Color="#FFC48945" />
+	<SolidColorBrush x:Key="Match.Group.9.Highlight.Background" po:Freeze="true" Color="#FF697C87" />
+	<SolidColorBrush x:Key="Match.Skip.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Match.Skip.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Match.Replace.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Match.Replace.Background" po:Freeze="true" Color="#FF71946D" />
 
-    <SolidColorBrush x:Key="DiffText.Deleted.Line.Background" po:Freeze="true" Color="#FF402140" />
-    <SolidColorBrush x:Key="DiffText.Deleted.Word.Background" po:Freeze="true" Color="#FF9E4D9E" />
-    <SolidColorBrush x:Key="DiffText.Inserted.Line.Background" po:Freeze="true" Color="#FF00274A" />
-    <SolidColorBrush x:Key="DiffText.Inserted.Word.Background" po:Freeze="true" Color="#800080C0" />
+	<SolidColorBrush x:Key="DiffText.Deleted.Line.Background" po:Freeze="true" Color="#FF402140" />
+	<SolidColorBrush x:Key="DiffText.Deleted.Word.Background" po:Freeze="true" Color="#FF9E4D9E" />
+	<SolidColorBrush x:Key="DiffText.Inserted.Line.Background" po:Freeze="true" Color="#FF00274A" />
+	<SolidColorBrush x:Key="DiffText.Inserted.Word.Background" po:Freeze="true" Color="#800080C0" />
 
-    <SolidColorBrush x:Key="Window.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Dialog.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Splitter.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Window.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Dialog.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Splitter.Background" po:Freeze="true" Color="#FF90A4B9" />
 
-    <!--  Window Caption  -->
-    <Thickness x:Key="Window.Border.Thickness">1</Thickness>
-    <SolidColorBrush x:Key="Window.Border.Active" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Window.Border.Inactive" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Caption.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Caption.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Caption.Background.Inactive" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Caption.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Caption.Dialog.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Caption.Button.Background" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Caption.Button.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Caption.Button.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Caption.Button.MouseOver.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Caption.Button.Background.Inactive" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Caption.Button.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Caption.Button.MouseOver.Background.Inactive" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Caption.Button.MouseOver.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
+	<!--  Window Caption  -->
+	<Thickness x:Key="Window.Border.Thickness">1</Thickness>
+	<SolidColorBrush x:Key="Window.Border.Active" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Window.Border.Inactive" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Caption.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Caption.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Caption.Background.Inactive" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Caption.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Caption.Dialog.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Caption.Button.Background" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Caption.Button.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Caption.Button.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Caption.Button.MouseOver.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Caption.Button.Background.Inactive" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Caption.Button.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Caption.Button.MouseOver.Background.Inactive" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Caption.Button.MouseOver.Foreground.Inactive" po:Freeze="true" Color="#FF90A4B9" />
 
-    <!--  Status Bar  -->
-    <SolidColorBrush x:Key="StatusBar.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="StatusBar.Static.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="StatusBar.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="StatusBar.Static.Separator.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="StatusBar.Paused.Background" po:Freeze="true" Color="#FFF87B58" />
-    <SolidColorBrush x:Key="StatusBar.Paused.Foreground" po:Freeze="true" Color="#FF333333" />
+	<!--  Status Bar  -->
+	<SolidColorBrush x:Key="StatusBar.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="StatusBar.Static.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="StatusBar.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="StatusBar.Static.Separator.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="StatusBar.Paused.Background" po:Freeze="true" Color="#FFF87B58" />
+	<SolidColorBrush x:Key="StatusBar.Paused.Foreground" po:Freeze="true" Color="#FF333333" />
 
-    <!--  Menu  -->
-    <SolidColorBrush x:Key="Menu.TopLevel.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="Menu.Normal.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Menu.Normal.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Menu.Item.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Menu.Item.Highlighted.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Menu.Item.Highlighted.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.Item.Highlighted.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Menu.Item.Selected.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.Item.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Menu.Separator.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.SubMenu.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Menu.SubMenu.Item.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Menu.SubMenu.Item.Highlighted.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Menu.SubMenu.Item.Highlighted.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.SubItem.Item.Highlighted.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="Menu.SubMenu.Item.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Menu.CheckMark.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Menu.CheckMark.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.CheckMark.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Menu.CheckMark.Disabled.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.CheckMark.Disabled.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="Menu.Context.Shadow.Background" po:Freeze="true" Color="#0000005C" />
-    <DropShadowEffect x:Key="Menu.DropShadowEffect" po:Freeze="true" ShadowDepth="2" Color="#FF404040" />
+	<!--  Menu	-->
+	<SolidColorBrush x:Key="Menu.TopLevel.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="Menu.Normal.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Menu.Normal.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Menu.Item.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Menu.Item.Highlighted.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Menu.Item.Highlighted.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.Item.Highlighted.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Menu.Item.Selected.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.Item.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Menu.Separator.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.SubMenu.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Menu.SubMenu.Item.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Menu.SubMenu.Item.Highlighted.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Menu.SubMenu.Item.Highlighted.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.SubItem.Item.Highlighted.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="Menu.SubMenu.Item.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Menu.CheckMark.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Menu.CheckMark.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.CheckMark.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Menu.CheckMark.Disabled.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.CheckMark.Disabled.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="Menu.Context.Shadow.Background" po:Freeze="true" Color="#0000005C" />
+	<DropShadowEffect x:Key="Menu.DropShadowEffect" po:Freeze="true" ShadowDepth="2" Color="#FF404040" />
 
-    <!--  Group Box  -->
-    <SolidColorBrush x:Key="GroupBox.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="GroupBox.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="GroupBox.Border.Inner" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="GroupBox.Border.Outer" po:Freeze="true" Color="#00FFFFFF" />
+	<!--  Group Box	 -->
+	<SolidColorBrush x:Key="GroupBox.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="GroupBox.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="GroupBox.Border.Inner" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="GroupBox.Border.Outer" po:Freeze="true" Color="#00FFFFFF" />
 
-    <!--  RadioButton  -->
-    <SolidColorBrush x:Key="Radio.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Radio.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Radio.Static.OptionMark" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Radio.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Radio.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Radio.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Radio.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Radio.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Radio.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Radio.Disabled.OptionMark" po:Freeze="true" Color="#FF90A4B9" />
+	<!--  RadioButton  -->
+	<SolidColorBrush x:Key="Radio.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Radio.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Radio.Static.OptionMark" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Radio.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Radio.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Radio.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Radio.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Radio.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Radio.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Radio.Disabled.OptionMark" po:Freeze="true" Color="#FF90A4B9" />
 
-    <!--  CheckBox  -->
-    <SolidColorBrush x:Key="OptionMark.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="OptionMark.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="OptionMark.Static.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="OptionMark.Checked.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="OptionMark.MouseOver.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="OptionMark.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="OptionMark.MouseOver.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="OptionMark.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="OptionMark.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="OptionMark.Disabled.Glyph" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="OptionMark.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="OptionMark.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="OptionMark.Pressed.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
-    <DropShadowEffect x:Key="OptionMark.DropShadowEffect" po:Freeze="true" ShadowDepth="0" Opacity="1" BlurRadius="18" Color="#FFFFFFFF" />
+	<!--  CheckBox	-->
+	<SolidColorBrush x:Key="OptionMark.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="OptionMark.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="OptionMark.Static.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="OptionMark.Checked.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="OptionMark.MouseOver.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="OptionMark.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="OptionMark.MouseOver.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="OptionMark.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="OptionMark.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="OptionMark.Disabled.Glyph" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="OptionMark.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="OptionMark.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="OptionMark.Pressed.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
+	<DropShadowEffect x:Key="OptionMark.DropShadowEffect" po:Freeze="true" ShadowDepth="0" Opacity="1" BlurRadius="18" Color="#FFFFFFFF" />
 
-    <!--  Button  -->
-    <SolidColorBrush x:Key="Button.Static.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Button.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Button.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Button.Default.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Button.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Button.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Button.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Button.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Button.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Button.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Button.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
-    
-    <!-- Toggle Button -->
-    <sys:Boolean x:Key="ToggleButton.DarkImages">false</sys:Boolean>
+	<!--  Button  -->
+	<SolidColorBrush x:Key="Button.Static.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Button.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Button.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Button.Default.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Button.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Button.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Button.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Button.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Button.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Button.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Button.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
+	
+	<!-- Toggle Button -->
+	<sys:Boolean x:Key="ToggleButton.DarkImages">true</sys:Boolean>
 
-    <!--  Text Box  -->
-    <SolidColorBrush x:Key="Control.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Control.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Control.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Control.Focused.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Control.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Control.MouseOver.InputBackground" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Control.MouseOver.InputBorder" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Control.MouseOver.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Control.GrayText" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Control.InfoBackground" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Control.InfoForeground" po:Freeze="true" Color="#FFF5F5F5" />
-    <SolidColorBrush x:Key="Control.FrameBorder" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Control.Highlight" po:Freeze="true" Color="#FF3794FF" />
+	<!--  Text Box	-->
+	<SolidColorBrush x:Key="Control.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Control.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Control.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Control.Focused.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Control.Disabled.Foreground" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Control.MouseOver.InputBackground" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Control.MouseOver.InputBorder" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Control.MouseOver.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Control.GrayText" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Control.InfoBackground" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Control.InfoForeground" po:Freeze="true" Color="#FFF5F5F5" />
+	<SolidColorBrush x:Key="Control.FrameBorder" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Control.Highlight" po:Freeze="true" Color="#FF3794FF" />
 
-    <!--  ComboBox  -->
-    <SolidColorBrush x:Key="ComboBox.Static.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBox.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Static.Editable.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Static.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Background" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Border" po:Freeze="true" Color="#0090A4B9" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Glyph" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Editable.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Editable.Button.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.Disabled.Editable.Button.Border" po:Freeze="true" Color="#0090A4B9" />
-    <SolidColorBrush x:Key="ComboBox.DropDown.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ComboBox.DropDown.Border" po:Freeze="true" Color="#FF90A4B9" />
-    
-    <!-- ComboBox Item -->
-    <SolidColorBrush x:Key="ComboBoxItem.Hover.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ComboBoxItem.Hover.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="ComboBoxItem.Selected.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBoxItem.Selected.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBoxItem.SelectedHover.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ComboBoxItem.SelectedHover.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="ComboBoxItem.SelectedNoFocus.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ComboBoxItem.SelectedNoFocus.Border" po:Freeze="true" Color="#008057BB" />
-    <SolidColorBrush x:Key="ComboBoxItem.Focus.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ComboBoxItem.HoverFocus.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ComboBoxItem.HoverFocus.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<!--  ComboBox	-->
+	<SolidColorBrush x:Key="ComboBox.Static.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBox.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Static.Editable.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Static.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Background" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="ComboBox.Static.Editable.Button.Border" po:Freeze="true" Color="#0090A4B9" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.MouseOver.Editable.Button.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Editable.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Pressed.Editable.Button.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Glyph" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Editable.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Editable.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Editable.Button.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.Disabled.Editable.Button.Border" po:Freeze="true" Color="#0090A4B9" />
+	<SolidColorBrush x:Key="ComboBox.DropDown.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ComboBox.DropDown.Border" po:Freeze="true" Color="#FF90A4B9" />
+	
+	<!-- ComboBox Item -->
+	<SolidColorBrush x:Key="ComboBoxItem.Hover.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ComboBoxItem.Hover.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="ComboBoxItem.Selected.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBoxItem.Selected.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBoxItem.SelectedHover.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBoxItem.SelectedHover.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="ComboBoxItem.SelectedNoFocus.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ComboBoxItem.SelectedNoFocus.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ComboBoxItem.Focus.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ComboBoxItem.HoverFocus.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ComboBoxItem.HoverFocus.Border" po:Freeze="true" Color="#00FFFFFF" />
 
-    <!--  Scroll Bar  -->
-    <SolidColorBrush x:Key="ScrollBar.Static.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ScrollBar.Static.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ScrollBar.Static.Glyph" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ScrollBar.Static.Thumb" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ScrollBar.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ScrollBar.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ScrollBar.MouseOver.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ScrollBar.MouseOver.Thumb" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ScrollBar.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ScrollBar.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ScrollBar.Pressed.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="ScrollBar.Pressed.Thumb" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="ScrollBar.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ScrollBar.Disabled.Border" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ScrollBar.Disabled.Glyph" po:Freeze="true" Color="#FF4C5863" />
+	<!--  Scroll Bar  -->
+	<SolidColorBrush x:Key="ScrollBar.Static.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ScrollBar.Static.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ScrollBar.Static.Glyph" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ScrollBar.Static.Thumb" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ScrollBar.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ScrollBar.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ScrollBar.MouseOver.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ScrollBar.MouseOver.Thumb" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ScrollBar.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ScrollBar.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ScrollBar.Pressed.Glyph" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="ScrollBar.Pressed.Thumb" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="ScrollBar.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ScrollBar.Disabled.Border" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ScrollBar.Disabled.Glyph" po:Freeze="true" Color="#FF4C5863" />
 
-    <!--  Slider  -->
-    <SolidColorBrush x:Key="SliderThumb.Static.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="SliderThumb.Static.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="SliderThumb.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="SliderThumb.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="SliderThumb.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="SliderThumb.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="SliderThumb.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="SliderThumb.Disabled.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="SliderThumb.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="SliderThumb.Track.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="SliderThumb.Track.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<!--  Slider  -->
+	<SolidColorBrush x:Key="SliderThumb.Static.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="SliderThumb.Static.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="SliderThumb.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="SliderThumb.MouseOver.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="SliderThumb.MouseOver.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="SliderThumb.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="SliderThumb.Pressed.Border" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="SliderThumb.Disabled.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="SliderThumb.Disabled.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="SliderThumb.Track.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="SliderThumb.Track.Border" po:Freeze="true" Color="#FF90A4B9" />
 
-    <!--  Progress Bar  -->
-    <SolidColorBrush x:Key="ProgressBar.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="ProgressBar.Border" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="ProgressBar.Progress" po:Freeze="true" Color="#FF0080C0" />
+	<!--  Progress Bar	-->
+	<SolidColorBrush x:Key="ProgressBar.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="ProgressBar.Border" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="ProgressBar.Progress" po:Freeze="true" Color="#FF0080C0" />
 
-    <!--  Tree View  -->
-    <SolidColorBrush x:Key="TreeView.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeView.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="TreeView.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="TreeView.Section.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="TreeView.LineNumber.Deselected.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="TreeView.LineNumber.Selected.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="TreeView.LineNumber.Empty.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="TreeView.Message.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeView.Message.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="TreeView.Disabled.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Fill" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Checked.Fill" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Checked.Stroke" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Fill" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Stroke" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Checked.Fill" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Checked.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="TreeViewItem.Highlight.Border" po:Freeze="true" Color="#00FFFFFF" />
-    <SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Border" po:Freeze="true" Color="#0090A4B9" />
+	<!--  Tree View	 -->
+	<SolidColorBrush x:Key="TreeView.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeView.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="TreeView.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="TreeView.Section.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="TreeView.LineNumber.Deselected.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="TreeView.LineNumber.Selected.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="TreeView.LineNumber.Empty.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="TreeView.Message.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeView.Message.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="TreeView.Disabled.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Fill" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Checked.Fill" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.Static.Checked.Stroke" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Fill" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Stroke" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Checked.Fill" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.TreeArrow.MouseOver.Checked.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="TreeViewItem.Highlight.Border" po:Freeze="true" Color="#00FFFFFF" />
+	<SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="TreeViewItem.InactiveHighlight.Border" po:Freeze="true" Color="#0090A4B9" />
 
-    <!--  Expander  -->
-    <SolidColorBrush x:Key="Expander.Static.Arrow.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Expander.Static.Circle.Fill" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="Expander.Static.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Expander.MouseOver.Arrow.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="Expander.MouseOver.Circle.Fill" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Expander.MouseOver.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Expander.Pressed.Arrow.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Expander.Pressed.Circle.Fill" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Expander.Pressed.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="Expander.Disabled.Arrow.Stroke" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="Expander.Disabled.Circle.Fill" po:Freeze="true" Color="#0090A4B9" />
-    <SolidColorBrush x:Key="Expander.Disabled.Circle.Stroke" po:Freeze="true" Color="#FF90A4B9" />
+	<!--  Expander	-->
+	<SolidColorBrush x:Key="Expander.Static.Arrow.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Expander.Static.Circle.Fill" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="Expander.Static.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Expander.MouseOver.Arrow.Stroke" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="Expander.MouseOver.Circle.Fill" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Expander.MouseOver.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Expander.Pressed.Arrow.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Expander.Pressed.Circle.Fill" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Expander.Pressed.Circle.Stroke" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="Expander.Disabled.Arrow.Stroke" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="Expander.Disabled.Circle.Fill" po:Freeze="true" Color="#0090A4B9" />
+	<SolidColorBrush x:Key="Expander.Disabled.Circle.Stroke" po:Freeze="true" Color="#FF90A4B9" />
 
-    <!--  DatePicker  -->
-    <SolidColorBrush x:Key="DatePicker.Static.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="DatePicker.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="DatePicker.Disabled.Overlay" po:Freeze="true" Color="#0090A4B9" />
-    <SolidColorBrush x:Key="DatePicker.TextBox.Border" po:Freeze="true" Color="#FF3F4952" />
-    <sys:Boolean x:Key="DatePicker.DarkOverlay">true</sys:Boolean>
+	<!--  DatePicker  -->
+	<SolidColorBrush x:Key="DatePicker.Static.Foreground" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="DatePicker.Static.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="DatePicker.Disabled.Overlay" po:Freeze="true" Color="#0090A4B9" />
+	<SolidColorBrush x:Key="DatePicker.TextBox.Border" po:Freeze="true" Color="#FF3F4952" />
+	<sys:Boolean x:Key="DatePicker.DarkOverlay">true</sys:Boolean>
 
-    <!--  DataGrid  -->
-    <SolidColorBrush x:Key="DataGrid.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="DataGrid.GridLine" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="DataGrid.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="DataGrid.Cell.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.Cell.Background" po:Freeze="true" Color="#FF303841" />
-    <SolidColorBrush x:Key="DataGrid.Header.Background" po:Freeze="true" Color="#FF3F4952" />
-    <SolidColorBrush x:Key="DataGrid.Header.MouseOver.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="DataGrid.Header.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="DataGrid.Header.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.Header.Border" po:Freeze="true" Color="#FF90A4B9" />
-    <SolidColorBrush x:Key="DataGrid.Header.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.FocusBorder" po:Freeze="true" Color="#FFFFFFFF" />
-    <SolidColorBrush x:Key="DataGrid.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
-    <SolidColorBrush x:Key="DataGrid.InactiveSelectionHighlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
-    <SolidColorBrush x:Key="DataGrid.InactiveSelectionHighlight.Background" po:Freeze="true" Color="#FF4C5863" />
+	<!--  DataGrid	-->
+	<SolidColorBrush x:Key="DataGrid.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="DataGrid.GridLine" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="DataGrid.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="DataGrid.Cell.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.Cell.Background" po:Freeze="true" Color="#FF303841" />
+	<SolidColorBrush x:Key="DataGrid.Header.Background" po:Freeze="true" Color="#FF3F4952" />
+	<SolidColorBrush x:Key="DataGrid.Header.MouseOver.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="DataGrid.Header.Pressed.Background" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="DataGrid.Header.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.Header.Border" po:Freeze="true" Color="#FF90A4B9" />
+	<SolidColorBrush x:Key="DataGrid.Header.Glyph" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.FocusBorder" po:Freeze="true" Color="#FFFFFFFF" />
+	<SolidColorBrush x:Key="DataGrid.Highlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.Highlight.Background" po:Freeze="true" Color="#FF4C5863" />
+	<SolidColorBrush x:Key="DataGrid.InactiveSelectionHighlight.Foreground" po:Freeze="true" Color="#FFF6F6F4" />
+	<SolidColorBrush x:Key="DataGrid.InactiveSelectionHighlight.Background" po:Freeze="true" Color="#FF4C5863" />
 
 </ResourceDictionary>
